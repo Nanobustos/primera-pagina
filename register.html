@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+</head>
+<body background="resourses/fondo1.jpg" >
+    <div style="text-align: center;"><form action="#" method="post">
+        <fieldset>
+        <legend>REGISTRO</legend>
+        <label>NOMBRE:</label>
+        <input type="nom" id="NOMBRE"
+        name="NOMBRE" required><br>
+        <label>APELLIDO:</label>
+        <input type="apellido" id="APELLIDO"
+        name="APELLIDO" required><br>
+        <label>E-MAIL:</label>
+        <input type="mail" id="E-MAIL"
+        name="E-MAIL" required><br>
+            <label>CONTRASEÑA:</label>
+            <input type="password" id="password"
+            name="contre¡aseña" required
+            minlength="6"><br>
+            <label for="">FECHA DE NACIMIENTO:</label>
+            <input type="date" id="inputFecha"
+            name="fecha" required>
+        <br>
+        <label>nacionalidad:</label>
+        <input type="search" id="nac"
+        list="lista" name="paises"><br>
+        <datalist id="lista" name="paises">
+            <option>ARGENTINA</option>
+            <option>BRASIL</option>
+            <option>MEXICO</option>
+            <option>COLOMBIA</option>
+            </datalist>
+        <input type="submit" value="REGISTRARSE">
+        </fieldset>
+    </form></div><br><br> 
+</body>
+</html>

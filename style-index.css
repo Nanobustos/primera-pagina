@@ -1,3 +1,6 @@
+html {
+    background-color: olive;
+}
 #porta {
     background-image: url(resourses/viendotv.jpg);
     width: 100%;

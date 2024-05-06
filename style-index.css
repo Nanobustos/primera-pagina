@@ -17,7 +17,6 @@ header {
 }
 header li {
     display: inline-block;
-    float: right;
 }
 header button {
     background-color: blueviolet;

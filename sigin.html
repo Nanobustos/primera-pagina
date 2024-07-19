@@ -7,18 +7,23 @@
     <link rel="stylesheet" href="style-index.css">
 </head>
 <body background="resourses/fondo1.jpg">
-   <div id="conte">
+   <fieldset>
+    <legend>Iniciar Sesion</legend>
+    <div class="log-mail">
     <form action="#" method="post">
-        <fieldset>
         <label>E-MAIL:</label>
         <input type="mail" id="E-MAIL"
-        name="E-MAIL" placeholder="abc@gmail.com" required><br><br>
+        name="E-MAIL" placeholder="abc@gmail.com" required>
+    </div>
+        <div class="pass">
             <label>CONTRASEÑA:</label>
             <input type="password" id="password"
             name="contraseña" required
             minlength="6"><br><br>
             <input type="submit" value="ingresar"><br>
-        </fieldset>    
-    </form></div>
+            <a href="register.html">registrarse</a>
+        </div>
+        </form>
+   </fieldset> 
 </body>
 </html>

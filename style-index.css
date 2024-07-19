@@ -1,19 +1,20 @@
 html {
-    background-color: olive;
+    background-color: rgb(16, 16, 7);
 }
 #porta {
-    background-image: url(resourses/viendotv.jpg);
+    background-image: url(resourses/cinehome.jpg);
+    background-repeat: no-repeat;
     width: 100%;
-    height: 750px;
+    height: 950%;
     text-align: center;
 }
 body button{
-    background-color: hotpink;
+    background-color: rgb(228, 255, 105);
     width: 150px;
     height: 40px;
 }
 header {
-    background-color: red;
+    background-color: rgba(168, 144, 144, 0.438);
     width: 100%;
     height: 50px;
     text-align: center;
@@ -22,13 +23,13 @@ header li {
     display: inline-block;
 }
 header button {
-    background-color: blueviolet;
-    color: chartreuse;
+    background-color: rgb(231, 188, 114);
+    color: rgba(6, 6, 6, 0.879);
     margin: 5px;
     border-radius: 10px;
 }
 main {
-    background-color: coral ;
+    background-color: rgb(98, 22, 22) ;
     width: 100%;
     height: 1200px;
     
@@ -43,8 +44,11 @@ main img {
     float: center;
     margin: 30px;
 }
-main cont {
-    width: 50%;
+#log-mail  {
+    flex-wrap: wrap;
+}
+#pass {
+    flex-wrap: wrap;
 }
 footer {
     background-color: darkcyan;
@@ -55,7 +59,7 @@ footer li {
 }
 body {
     width: 100%;
-    height: 800px;
+    height: 95px;
 }
 body form {
     height: 800px;
